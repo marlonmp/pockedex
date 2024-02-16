@@ -3,7 +3,7 @@ import { SafeAreaView } from 'react-native';
 
 import PokemonList from '../components/PokemonList';
 
-export default function Pockedex() {
+export default function Pokedex() {
 
   return (
     <SafeAreaView>

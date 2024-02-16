@@ -26,7 +26,7 @@ const tabs = [
     options: {
       tabBarLabel: '',
       headerShown: false,
-      tabBarIcon: () => <PockedexIcon />,
+      tabBarIcon: () => <PokedexIcon />,
     },
   },
   {
@@ -48,6 +48,6 @@ export default function TabNavigation () {
   );
 }
 
-function PockedexIcon() {
+function PokedexIcon() {
   return <Image source={require('../assets/pokeball.png')} style={{ width: 85, height: 85, top: -18 }} />;
 }
